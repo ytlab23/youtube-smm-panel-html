@@ -15,6 +15,11 @@ img{display:block;}
 html{scroll-behavior:smooth}
 html{font-family:Karla; font-size:16px;}
 body{font-weight:400; font-style:normal; text-decoration:none; text-transform:none; letter-spacing:normal; line-height:24px; color:var(--dl-color-gray-black); background-color:var(--dl-color-gray-white);}
+
+#anchor{
+  position:relative;
+  top:-40px;
+}
 .py-6{padding-block:6em;}
 .my-6{margin-block:6em;}
 .rounded20{border-radius:20px;}
@@ -28,7 +33,7 @@ body{font-weight:400; font-style:normal; text-decoration:none; text-transform:no
 .app-component-link{font-size:18px; font-family:"Space Grotesk"; font-weight:600;}
 .component11-container{display:flex; position:relative;}
 .component11-link:hover{color:#000000; border-color:var(--dl-color-gray-black); border-width:1px; background-color:#b9ff66;}
-.navBar.container-fluid{padding-block:2rem; position:fixed; top:0; z-index:9999;}
+.navBar.container-fluid{padding-block:2rem; position:fixed; top:0; z-index:999;}
 #navBar.sticky{background:#000000;}
 .navBar .logo{width:250px;}
 .navBar .logoW{display:none;}
