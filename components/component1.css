@@ -1,0 +1,28 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-link {
+  color: #ffffff;
+  align-self: flex-start;
+  margin-top: 24px;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #181818;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.component1-link:hover {
+  color: #000000;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  background-color: #b9ff66;
+}
