@@ -73,7 +73,7 @@
   cursor: pointer;
   font-style: normal;
   transition: 0.3s;
-  font-family: Karla;
+  font-family: "Space Grotesk";
   font-weight: 500;
 }
 .link:hover {
@@ -205,7 +205,7 @@
 }
 .Content {
   font-size: 16px;
-  font-family: Karla;
+  font-family: "Space Grotesk";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
