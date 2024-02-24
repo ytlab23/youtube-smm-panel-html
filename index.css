@@ -15,7 +15,9 @@ img{display:block;}
 html{scroll-behavior:smooth}
 html{font-family:"Space Grotesk"; font-size:16px;}
 body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:normal; text-decoration:none; text-transform:none; letter-spacing:normal; line-height:24px; color:var(--dl-color-gray-black); background-color:var(--dl-color-gray-white);}
-
+.alert-success {
+  padding-block: 8px;
+}
 #anchor{
   position:relative;
   top:-40px;
