@@ -404,17 +404,23 @@
         </div>
         <div class="contactInner row">
           <div class="col-12 col-lg-6 ">
-            <form class="home-form">
-              <input type="text" placeholder="Name" autocomplete="on" class="home-name input" />
-              <input type="text" placeholder="Email" autocomplete="email" class="home-email input" />
-              <textarea rows="7" placeholder="Message" class="textarea"></textarea>
-              <button type="button" class="home-button" id="formButton">
-                <span>
-                  <span class="home-text48">Send Message</span>
-                  <br />
-                </span>
-              </button>
-            </form>
+           <form class="home-form" id="contactForm">
+  <input type="text" placeholder="Name" autocomplete="on" class="home-name input" />
+  <input type="text" placeholder="Email" autocomplete="email" class="home-email input" />
+  <textarea rows="7" placeholder="Message" class="textarea"></textarea>
+    <div class="d-flex justify-content-between">          
+    <div class="">          
+  <button type="submit" class="home-button" id="formButton">
+    <span>
+      <span class="home-text48">Send Message</span>
+      <br />
+    </span>
+  </button>
+      </div>
+      <div id="successPopup" style="display: none;">
+  <p class=".home-button2">Message sent successfully!</p>
+</div>
+</form>
           </div>
 
           <img alt="image" src="public/Illustrations/contactpng-400w.png" class="home-image14" />
@@ -570,6 +576,19 @@
       }
 
     });
+
+     document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Simulate form submission (you can replace this with your actual form submission logic)
+    setTimeout(function() {
+      // Show success pop-up
+      document.getElementById('successPopup').style.display = 'block';
+      
+      // Reset form fields (optional)
+      document.getElementById('contactForm').reset();
+    }, 1000); // Simulating a delay of 1 second (1000 milliseconds)
+  });
   </script>
 </body>
 
