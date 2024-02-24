@@ -483,23 +483,29 @@
   </div>
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered  modal-lg">
+  <div class="modal-dialog modal-dialog-centered  modal-md">
     <div class="modal-content p-4 p-md-5">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign Up For Our News Letter</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form class="home-form ">
+        <form class="home-form" id="contactForm2">
           <input type="text" placeholder="Name" autocomplete="on" class="home-name input" />
           <input type="text" placeholder="Email" autocomplete="email" class="home-email input" />
-          
-          <button type="button" class="home-button">
-            <span>
-              <span class="home-text48">Subscribe</span>
-              <br />
-            </span>
-          </button>
+          <div class="d-flex justify-content-between">          
+    <div class="">          
+  <button type="submit" class="home-button" id="formButton2">
+    <span>
+      <span class="home-text48">Subscribe</span>
+      <br />
+    </span>
+  </button>
+      </div>
+      <div id="successPopup2" style="display: none;">
+  <p class="alert alert-success" role="alert">Message sent successfully!</p>
+</div>
+         
         </form>
       </div>     
     </div>
@@ -589,6 +595,19 @@
       
       // Reset form fields (optional)
       document.getElementById('contactForm').reset();
+    }, 1000); // Simulating a delay of 1 second (1000 milliseconds)
+  });
+
+         document.getElementById('contactForm2').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Simulate form submission (you can replace this with your actual form submission logic)
+    setTimeout(function() {
+      // Show success pop-up
+      document.getElementById('successPopup2').style.display = 'block';
+      
+      // Reset form fields (optional)
+      document.getElementById('contactForm2').reset();
     }, 1000); // Simulating a delay of 1 second (1000 milliseconds)
   });
   </script>
