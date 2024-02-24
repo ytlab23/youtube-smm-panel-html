@@ -164,7 +164,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 @media(max-width:991px){
   .home-image14{right:-36%; width:300px; opacity:0.5;}
   .processAccordion .accordion-button{font-size:17px; padding-block:1rem;}
-  .cta .bgDark{padding-block:1.5rem;}
+  .cta .bgDark{padding-block:2rem;}
   .cta img{width:110px; margin-block:0;}
   .home-hero{height:auto; margin-top:6rem; gap:1rem;}
   .home-text{width:auto; font-size:2em;}
