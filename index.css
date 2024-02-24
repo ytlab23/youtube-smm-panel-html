@@ -42,7 +42,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .sticky .logoW{display:block;}
 .sticky .logoB{display:none !important;}
 .home-container{width:100%; display:flex; min-height:100vh; overflow-x:hidden; align-items:center; flex-direction:column;}
-.home-hero{gap:var(--dl-space-space-twounits); width:100%; height:100vh; display:flex; align-items:center; flex-direction:column; justify-content:center;}
+.home-hero{gap:var(--dl-space-space-twounits); width:100%; height:calc(100vh - 140px); display:flex; align-items:center; flex-direction:column; justify-content:center;}
 .home-text{width:497px; font-size:3em; font-family:"Space Grotesk";}
 .home-image{top:0; right:0; width:125px; height:101px; opacity:0; position:absolute; object-fit:cover;}
 .home-image01{width:100%; height:auto; object-fit:cover;}
