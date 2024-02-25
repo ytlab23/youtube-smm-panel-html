@@ -210,7 +210,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
  font-size:14px;
   flex-wrap: wrap;
 }
-.home-button4, home-button3, .home-button2,{
+.home-button4, home-button3, .home-button2{
   padding-block:9px;
 }
 .home-button{
