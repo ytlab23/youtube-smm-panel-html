@@ -199,7 +199,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
   .navBar.container-fluid{padding-block:1.5rem;}
   .navBar .logo{width:200px;}
   .home-text{font-size:30px;}
-  .home-hero{height:auto; padding-top:var(--dl-space-space-threeunits); padding-bottom:var(--dl-space-space-threeunits);}
+  .home-hero{height:auto; padding-top:var(--dl-space-space-threeunits); padding-bottom:0;}
   .secTitle{width:auto;}
   .processAccordion .accordion-button{font-size:16px; line-height:24px;}
   .fContact {
@@ -210,7 +210,10 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
  font-size:14px;
   flex-wrap: wrap;
 }
-.home-button4, home-button3, .home-button2, .home-button{
+.home-button4, home-button3, .home-button2,{
   padding-block:9px;
+}
+.home-button{
+  padding-block:10px;
 }
 }
