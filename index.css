@@ -28,7 +28,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .rounded16{border-radius:16px;}
 .bgGrey{background:var(--grey);}
 .bgDark{background:#000000; color:#ffffff;}
-.component1-container{display:flex; position:relative;}
+.component1-container{display:flex; position:relative;flex-wrap: wrap;}
 .app-component-container{gap:var(--dl-space-space-halfunit); position:relative; transition:0.3s; align-items:center; flex-direction:row;}
 .app-component-image{width:25px; height:25px; transform:rotate(45deg); background:#000000; object-fit:cover; transition:0.3s; border-radius:var(--dl-radius-radius-round);}
 .app-component-image:hover{transform:rotate(45deg);}
@@ -200,7 +200,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 }
 @media(max-width:479px){
   .navBar.container-fluid{padding-block:1.5rem;}
-  .navBar .logo{width:200px;}
+  /* .navBar .logo{width:200px;} */
   .home-text{font-size:30px;}
   .home-hero{height:auto; padding-top:var(--dl-space-space-threeunits); padding-bottom:0;}
   .secTitle{width:auto;}
