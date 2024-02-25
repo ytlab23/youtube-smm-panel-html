@@ -179,7 +179,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
   .processAccordion .accordion-button{font-size:17px; padding-block:1rem;}
   .cta .bgDark{padding-block:2rem;}
   .cta img{width:110px; margin-block:0;}
-  .home-hero{height:auto; margin-top:6rem; gap:1rem;}
+  .home-hero{height:auto; margin-top:5rem; gap:1rem;}
   .home-text{width:auto; font-size:2em;}
   .heroTagline{font-size:1rem;}
   .subTitle{max-width:auto;}
@@ -197,10 +197,11 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
   .contactInner{padding:2rem 1rem;}
   .mySwiper{padding-block:1rem; border-radius:0;}
   .mySwiper img{width:50px; border-radius:12px;}
+  .home-hero{height:auto; margin-top:4rem; gap:1rem;}
 }
 @media(max-width:479px){
   .navBar.container-fluid{padding-block:1.5rem;}
-  /* .navBar .logo{width:200px;} */
+  .navBar .logo{width:230px;}
   .home-text{font-size:30px;}
   .home-hero{height:auto; padding-top:var(--dl-space-space-threeunits); padding-bottom:0;}
   .secTitle{width:auto;}
