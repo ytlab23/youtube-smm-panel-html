@@ -131,7 +131,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .aboutFooter  {
   max-width: 410px;
 }
-.footerLogo {
+.footerLogo img{
   max-width: 250px;
 }
 .myGreen{color:var(--green);}
