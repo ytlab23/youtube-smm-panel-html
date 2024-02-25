@@ -217,4 +217,8 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
   padding-block:10px;
 }
   .home-footer{border-radius:0;}
+  .contactInner, .rounded20 {
+    border-radius:0;
+  }
+    
 }
