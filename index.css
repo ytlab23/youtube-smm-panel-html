@@ -208,4 +208,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
  font-size:14px;
   flex-wrap: wrap;
 }
+.home-button4, home-button3, .home-button2, .home-button{
+  padding-block:9px;
+}
 }
