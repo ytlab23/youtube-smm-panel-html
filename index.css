@@ -144,7 +144,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .home-button3{color:#000000; border:1px solid #000000; margin-top:0; padding-inline:30px; padding-block:11px;}
 .home-button:hover{color:#000000; border-color:var(--dl-color-gray-black); border-width:1px; background-color:#b9ff66;}
 .home-image14{top:50%; right:-16%; width:400px; height:auto; position:absolute; transform:translateY(-50%); object-fit:cover;}
-.home-footer{gap:var(--dl-space-space-twounits); width:100%; display:flex; padding:3rem; align-items:center; border-radius:var(--dl-radius-radius-radius8); flex-direction:column; background-color:var(--dl-color-primary-black); border-top-left-radius:20px; border-top-right-radius:20px;}
+.home-footer{gap:var(--dl-space-space-twounits); width:100%; display:flex; padding:3rem; align-items:center; flex-direction:column; background-color:var(--dl-color-primary-black); border-top-left-radius:20px; border-top-right-radius:20px;}
 .home-container40{flex:0 0 auto; width:100%; display:flex; align-items:flex-start; flex-direction:row;}
 .home-image15{width:auto; height:24px; object-fit:cover;}
 .home-container42{gap:var(--dl-space-space-halfunit); height:auto; display:flex; margin-top:var(--dl-space-space-oneandhalfunits); align-items:flex-start; flex-direction:row;}
@@ -216,4 +216,5 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .home-button{
   padding-block:10px;
 }
+  .home-footer{border-radius:0;}
 }
