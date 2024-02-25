@@ -157,7 +157,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .home-text50{color:var(--dl-color-primary-grey); font-style:normal; font-weight:300;}
 .home-text51{color:var(--dl-color-primary-grey); font-style:normal; font-weight:300;}
 .home-container46{display:contents;}
-.home-button4{color:#000000; transition:0.3s; padding-block:11px; border-color:#000000; border-width:1px; padding-inline:30px; border-radius:10px; background-color:transparent;  transition:all 0.3s;}
+.home-button4{color:#000000; transition:0.3s; padding-block:11px; border-color:#000000; border-width:1px; padding-inline:30px; border-radius:var(--dl-radius-radius-radius8); background-color:transparent;  transition:all 0.3s;}
 .home-button4:hover{background:var(--green);}
 .sticky .home-button4 {color:var(--green); border-color: var(--green);}
 .sticky .myLogo h2 {color:var(--green);}
