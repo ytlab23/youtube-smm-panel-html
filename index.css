@@ -138,7 +138,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .home-name{width:100%;}
 .home-email{width:100%;}
 .home-button3{}
-.home-button{color:rgb(255,255,255); align-self:flex-start; margin-top:0; transition:0.3s; padding-block:12px; border-color:var(--dl-color-gray-white); border-width:1px; padding-inline:30px; border-radius:var(--dl-radius-radius-radius8); background-color:rgb(24,24,24); border-radius:12px; transition:all 0.3s;}
+.home-button{color:rgb(255,255,255); align-self:flex-start; margin-top:0; transition:0.3s; padding-block:12px; border-color:var(--dl-color-gray-white); border-width:1px; padding-inline:30px; border-radius:var(--dl-radius-radius-radius8); background-color:rgb(24,24,24); transition:all 0.3s;}
 .home-button2{margin-top:30px; color:var(--green); align-self:flex-start; transition:0.3s; padding-block:11px; border-color:var(--green); border-width:1px; padding-inline:30px; border-radius:var(--dl-radius-radius-radius8); background-color:transparent;  transition:all 0.3s;}
 .home-button2:hover{color:#000000; border-color:var(--dl-color-gray-black); border-width:1px; background-color:var(--green);}
 .home-button3{color:#000000; border:1px solid #000000; margin-top:0; padding-inline:30px; padding-block:11px;}
