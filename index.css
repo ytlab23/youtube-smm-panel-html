@@ -200,6 +200,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
   .home-hero{height:auto; margin-top:4rem; gap:1rem;}
 }
 @media(max-width:479px){
+  .home-hero{ margin-top:3rem; }
   .navBar.container-fluid{padding-block:1.5rem;}
   .navBar .logo{width:230px;}
   .home-text{font-size:30px;}
