@@ -158,6 +158,7 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .home-container46{display:contents;}
 .home-button4{color:#000000; transition:0.3s; padding-block:11px; border-color:#000000; border-width:1px; padding-inline:30px; border-radius:10px; background-color:transparent;  transition:all 0.3s;}
 .sticky .home-button4 {color:var(--green); border-color: var(--green);}
+.sticky .myLogo h2 {color:var(--green);}
 @media(max-width:1199px){
   .about{flex-direction:column;}
   .secTitle{font-size:1.5rem;}
