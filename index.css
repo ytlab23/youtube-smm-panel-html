@@ -131,6 +131,9 @@ body{font-weight:400; font-family:"Space Grotesk", sans-serif;  font-style:norma
 .aboutFooter  {
   max-width: 410px;
 }
+.footerLogo {
+  max-width: 250px;
+}
 .myGreen{color:var(--green);}
 .fContact{align-items:flex-end;}
 .contactInner{display:flex; padding:var(--dl-space-space-threeunits); position:relative; align-items:flex-start; border-radius:20px; background-color:var(--grey);}
